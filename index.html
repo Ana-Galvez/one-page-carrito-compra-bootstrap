@@ -18,34 +18,34 @@
 </head>
 <body>
   <!-- nav -->
-  <nav class="navbar navbar-expand-lg bg-danger">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Logo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" role="navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/favicon.png" class="favicon img-fluid" alt="logo de nuestra empresa"></a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+      <div class="collapse navbar-collapse mx-lg-auto fs-5" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mx-auto" role="list">
+          <li class="nav-item" role="listitem">
             <a class="nav-link" href="#">Inicio</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown" role="listitem">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Productos
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Celulares</a></li>
-              <li><a class="dropdown-item" href="#">Notebooks</a></li>
-              <li><a class="dropdown-item" href="#">Tv's</a></li>
-              <li><a class="dropdown-item" href="#">Smart Watches</a></li>
+            <ul class="dropdown-menu" role="list">
+              <li><a class="dropdown-item" href="#" role="listitem">Celulares</a></li>
+              <li><a class="dropdown-item" href="#" role="listitem">Notebooks</a></li>
+              <li><a class="dropdown-item" href="#" role="listitem">Tv's</a></li>
+              <li><a class="dropdown-item" href="#" role="listitem">Smart Watches</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link">Contacto</a>
+          <li class="nav-item" role="listitem">
+            <a class="nav-link" href="#">Contacto</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Escribe el producto que buscas" aria-label="cuadro de busqueda">
+          <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="cuadro de busqueda">
           <button class="btn btn-outline-primary btn-primary text-white" type="submit">Buscar</button>
         </form>
       </div>

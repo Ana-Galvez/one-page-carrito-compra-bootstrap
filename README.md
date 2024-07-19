@@ -1,3 +1,3 @@
 # One page carrito de compra con Bootstrap
 - Responsive Design
-- Componentes Bootstrap (navbar)
+- Componentes Bootstrap (navbar, carousel, cards)

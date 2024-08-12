@@ -20,6 +20,18 @@
   -webkit-filter: drop-shadow(0 0 0.75rem rgb(72, 104, 194));
 }
 
+/* mis estilos */
+
+body:has(option[value="dark"]:checked),
+body:has(option[value="dark"]:checked) img,
+body:has(option[value="dark"]:checked) nav,
+body:has(option[value="dark"]:checked) footer
+{
+  background-color: #000;
+  filter:invert(1);
+  -webkit-filter:invert(1);
+}
+
 @media screen and (max-width: 500px){
   .tamano-banner{
     height: 5rem;
